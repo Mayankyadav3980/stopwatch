@@ -17,7 +17,7 @@ body{
 h1{
     background-color: var(--fg-color);
     color: var(--bg-color);
-    font-size: 4rem;
+    font-size: 8vh;
     font-weight: 500;
     margin: 6vh 30vw;
     padding: 1vh 0 ;
