@@ -17,7 +17,7 @@ body{
 h1{
     background-color: var(--fg-color);
     color: var(--bg-color);
-    font-size: 8vh;
+    font-size: 4vw;
     font-weight: 500;
     margin: 6vh 30vw;
     padding: 1vh 0 ;
@@ -36,11 +36,32 @@ h1{
 }
 
 #watch-display{
-    font-size: 10vh;
+    font-size: 7vw;
+    letter-spacing: 0;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+}
+
+
+.txt{
+    margin: 0;
+    padding: 0;
+    max-width:max-content;
+}
+#hr{
+    flex-grow: 1;
+    text-align: right;
+}
+#sec{
+    flex-grow: 1;
+    text-align: left;
 }
 
 .btn{
-    font-size: 3vh;
+    font-size: 1.7vw;
     margin: 3vh 2vw 2vh;
     padding: 1vh 2vw;
     border-radius: 40px;
