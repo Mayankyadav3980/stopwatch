@@ -1,74 +1,67 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --bg-color: #2F2828;
-    --fg-color: #ffffff;
+:root {
+  --bg-color: #2f2828;
+  --fg-color: #ffffff;
 }
 
-body{
-    background-color: var(--bg-color);
-    color: var(--fg-color);
-    font-family:Arial, Helvetica, sans-serif
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    background-color: var(--fg-color);
-    color: var(--bg-color);
-    font-size: 4vw;
-    font-weight: 500;
-    margin: 6vh 30vw;
-    padding: 1vh 0 ;
-    text-align: center;
-    border-radius: 20px;
-
+h1 {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+  font-size: 4vw;
+  font-weight: 500;
+  margin: 6vh 30vw;
+  padding: 1vh 0;
+  text-align: center;
+  border-radius: 20px;
 }
 
-.content{
-    background-color: var(--fg-color);
-    color: var(--bg-color);
-    margin: 15vh 25vw;
-    padding: 4vh 5vw;
-    text-align: center;
-    border-radius: 20px;
+.content {
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+  margin: 15vh 25vw;
+  padding: 4vh 5vw;
+  text-align: center;
+  border-radius: 20px;
 }
 
-#watch-display{
-    font-size: 7vw;
-    letter-spacing: 0;
+#watch-display {
+  font-size: 7vw;
+  letter-spacing: 0;
 }
 
-#time{
-    display: flex;
-    justify-content: center;
+#time {
+  display: flex;
+  justify-content: center;
 }
 
-
-.txt{
-    margin: 0;
-    padding: 0;
-    max-width:max-content;
+#hr {
+  flex-grow: 1;
+  text-align: right;
 }
-#hr{
-    flex-grow: 1;
-    text-align: right;
-}
-#sec{
-    flex-grow: 1;
-    text-align: left;
+#sec {
+  flex-grow: 1;
+  text-align: left;
 }
 
-.btn{
-    font-size: 1.7vw;
-    margin: 3vh 2vw 2vh;
-    padding: 1vh 2vw;
-    border-radius: 40px;
-    border: 1px solid transparent;
+.btn {
+  font-size: 1.7vw;
+  margin: 3vh 2vw 2vh;
+  padding: 1vh 2vw;
+  border-radius: 40px;
+  border: 1px solid transparent;
 }
 
-.btn:hover{
-    border-color: var(--bg-color);
-    background-color: transparent;
+.btn:hover {
+  border-color: var(--bg-color);
+  background-color: transparent;
 }

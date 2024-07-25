@@ -1,7 +1,7 @@
 // getting the required html elements
-const startBtn = document.getElementById('start');
-const stopBtn = document.getElementById('stop');
-const resetBtn = document.getElementById('reset');
+const startBtn = document.getElementById("start");
+const stopBtn = document.getElementById("stop");
+const resetBtn = document.getElementById("reset");
 
 //initializing some variables
 let flag = false;
@@ -11,11 +11,11 @@ let second = 0;
 let count = 0;
 
 // making start, stop, reset button to listen  click events
-startBtn.addEventListener('click', () => {
+startBtn.addEventListener("click", () => {
   flag = true;
   startBtn.setAttribute("disabled", "true");
   stopWatch();
-})
+});
 
 stopBtn.addEventListener("click", (e) => {
   startBtn.removeAttribute("disabled");
@@ -33,7 +33,6 @@ resetBtn.addEventListener("click", (e) => {
   document.getElementById("min").innerHTML = "00";
   document.getElementById("sec").innerHTML = "00";
 });
-
 
 // function to handle logic to display the time in stopwatch
 function stopWatch() {
